@@ -1,0 +1,156 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #273746;
+}
+
+.contenedor {
+    max-width: 1000px;
+    width: 100%;
+    border: dashed 2px #808080;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+.item {
+    width: 60px;
+    height: 90px;
+    border: solid .5px #fff;
+    background-image: url(../img/poker.png);
+    background-repeat: no-repeat;
+    background-position: 5px 10px;
+    background-size: 50px;
+    display: inline-block;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.item:hover {
+   box-shadow: 0px 6px 17px #a9a9a9;
+  -webkit-transition: all .5s ease-out;
+  -moz-transition: all .5s ease-out;
+  -o-transition: all .5s ease-out;
+  transition: all .5s ease-out;
+}
+
+.checked-item
+{
+   background-image: url(../img/marca-de-verificacion.png);
+}
+
+.sin-fondo-item
+{
+    background-image: none;
+}
+
+.img-logo
+{
+    width: 120px;
+    margin: 0 auto;
+    display: block;
+}
+
+.cabecera-principal
+{
+    margin-bottom: 10px;
+}
+
+.titulo-juego
+{
+  text-align: center;
+  color: white;
+}
+
+.contenedor-hora
+{
+  float: left;
+  text-align: right;
+  width: 50%;
+  padding-top: 30px;
+  color: white;
+}
+
+.contenedor-vidas
+{
+  float: left;
+  width: 50%;
+  color: white;
+}
+
+.contenedor-vidas span
+{
+  font-size: 30px;
+  font-weight: bold;
+  margin-right: 5px;
+  margin-top: -20px;
+}
+
+.contenedor-vidas img
+{
+  width: 40px;
+  margin: 5px;
+}
+
+.clear
+{
+    clear: both;
+}
+
+.numero-carta {
+  float: left;
+  font-size: 30px;
+  line-height: 3;
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+#contenedor-mensaje-victoria
+{
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #000000;
+}
+
+#contenedor-mensaje-derrota
+{
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #000000;
+}
+
+#mensaje-victoria, #mensaje-derrota
+{
+   min-height: 400px;
+   background: white;
+   top: 20%;
+   position: relative;
+   max-width: 600px;
+   margin: 0 auto;
+   padding: 10px;
+   text-align: center;
+}
+
+.ocultar-mensaje
+{
+  display: none;
+}
+
+.btn
+{
+  width: 120px;
+  height: 30px;
+  font-weight: bold;
+  cursor: pointer;
+  color: white;
+}
+
+.btn:hover
+{
+	background: #022358;
+}

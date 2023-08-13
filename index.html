@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego de pares</title>
+
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="shortcut icon" href="img/juego-de-cartas.png" type="x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="cabecera-principal">
+        <img src="img/juego-de-ordenador.png" alt="logo de juegos" class="img-logo">
+        <h1 class="titulo-juego">Juego de pares</h1>
+    </header>
+
+    <div class="contenedor-vidas">
+        <br>
+        <span>Vidas:</span>
+        <img src="img/corazon-icon.png">
+        <img src="img/corazon-icon.png">
+        <img src="img/corazon-icon.png">
+        <img src="img/corazon-icon.png">
+        <img src="img/corazon-icon.png">
+    </div>
+    <div class="contenedor-hora">
+        <br>
+        <span class="hora">00</span>:
+        <span class="minuto">00</span>:
+        <span class="segudo">00</span>
+    </div>
+    <div class="clear"></div>
+    <br>
+    <div class="contenedor"></div>
+    <div id="contenedor-mensaje-victoria" class="ocultar-mensaje">
+        <div id="mensaje-victoria">
+            <h1>¡felicitaciones! has ganado</h1>
+            <button class="btn" style="background-color: #212f3d;
+            border-radius: 5px; position: relative; bottom: 130px;
+            left: 100px;">¿otra vez?</button>
+            <img src="img/kermit-kermitthefrog.gif" alt="victoria" width="220" height="146" style="position: relative;bottom: -50px;left: -100px;" />
+        </div>
+    </div>
+    <div id="contenedor-mensaje-derrota" class="ocultar-mensaje">
+        <div id="mensaje-derrota">
+            <h1>lo siento, perdiste</h1>
+            <button class="btn" style="background-color: #212f3d;
+            border-radius: 5px;">¿otra vez?</button>
+            <img src="img/30688a898a2102a5bc18221f8e83eb4e36c49f41_hq.gif" alt="victoria" width="500" height="270"
+                style="padding: 30px;" />
+        </div>
+    </div>
+    <script src="js/juego.js"></script>
+</body>
+
+</html>
